@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://user-images.githubusercontent.com/39142850/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  h1 {
+    color: #2E1B3B;
+    background-color: #AAD5DB;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 800;
+    text-shadow: 1px -1px #201329;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  h2 {
+    text-align: center;
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #2E1B3B;
+  }
+.caixa {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+  padding: 15px;
+  margin: 30px;
+ background-color: rgba(255, 255, 255, 0.452);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+ p {
+  text-align: justify;
+  margin: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #2E1B3B;
+ }
+
+img {
+  border-radius: 50%;
+  width: 30%;
+}
+label {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+form {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+input, textarea {
+  font: 1em sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  display: block;
+}
+
