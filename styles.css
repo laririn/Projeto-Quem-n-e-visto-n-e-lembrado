@@ -27,19 +27,20 @@ body {
 .caixa {
   box-shadow: 0 5px 5px rgba(0,0,0,0.4);
   padding: 15px;
-  margin: 30px;
+  margin: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
  background-color: rgba(255, 255, 255, 0.452);
     line-height: 1;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 15px;
 }
- p {
-  text-align: justify;
-  margin: 20px;
+ li, p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #2E1B3B;
+  text-align: center;
  }
 
 img {
@@ -50,6 +51,7 @@ label {
   display: inline-block;
   width: 100%;
   text-align: left;
+
 }
 form {
   width: 100%;
@@ -58,10 +60,14 @@ form {
   margin: 0 auto;
 }
 input, textarea {
-  font: 1em sans-serif;
+  font: 'Lato', sans-serif;
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #999;
   display: block;
 }
 
+ul.lista {
+  list-style-type: disc;
+  color: #201329;
+}
