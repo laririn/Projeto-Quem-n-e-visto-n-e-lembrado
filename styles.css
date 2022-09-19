@@ -26,7 +26,7 @@ body {
   }
 .caixa {
   box-shadow: 0 5px 5px rgba(0,0,0,0.4);
-  padding: 15px;
+  padding: 25px;
   margin: 60px;
   margin-left: 150px;
   margin-right: 150px;
@@ -36,11 +36,18 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 15px;
 }
- li, p {
+ p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #2E1B3B;
-  text-align: center;
+  text-align: justify;
+ }
+ li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #2E1B3B;
+  text-align: justify;
+  margin-left: 130px;
  }
 
 img {
